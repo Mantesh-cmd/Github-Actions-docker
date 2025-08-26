@@ -21,8 +21,8 @@ jobs:
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       PORT: 8080
-
-     services:
+      
+    services:
       mongodb:
         image: mongo
         env:
