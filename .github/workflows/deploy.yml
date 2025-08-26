@@ -13,6 +13,8 @@ jobs:
     environment: production
     runs-on: ubuntu-latest
     continue-on-error: true
+    container:
+      image: node:18
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: cluster0.lqqdtgh.mongodb.net
