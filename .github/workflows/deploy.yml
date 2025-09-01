@@ -12,7 +12,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: 'Lets check the docker action'
-              uses: ./.github/docker-custom-action
+              uses: ./.github/docker-custom-action/action.yml
               with:
                 result: 'No, its not yet declared'
 
