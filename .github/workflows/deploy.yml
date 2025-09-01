@@ -14,7 +14,7 @@ jobs:
             - name: 'To checkout Code'
               uses: actions/checkout@v3
             - name: 'Lets check the docker action'
-              uses: ./.github/docker-custom-action/action.yml
+              uses: ./.github/docker-custom-action
               with:
                 result: 'No, its not yet declared'
 
